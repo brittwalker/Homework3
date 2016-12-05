@@ -121,6 +121,7 @@ h3 {
   border-radius: 2px;
   border-bottom-style: outset;
   border-bottom-color: white;
+  padding-bottom: 20px;
 }
 
 .bottom {
@@ -135,6 +136,7 @@ h3 {
   padding: 1%;
   background-color: white;
   text-align: center;
+  overflow: hidden;
 }
 
 .sec:after {
@@ -168,14 +170,19 @@ h3 {
   border-radius: 2px;
   border-bottom-style: outset;
   border-bottom-color: white;
+  white-space: nowrap;
 }
 
 footer {
   background-color: black;
-  height: 50px;
+  height: 10%;
   color: white;
   line-height: 50px;
   font-family: sans-serif;
   font-size: 12px;
   padding-left: 5px;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  z-index: 100;
 }
